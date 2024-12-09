@@ -1,5 +1,5 @@
 select 
     orderid as order_id,
     amount,
-    status
+    status as payment_status
 from `dbt-tutorial`.stripe.payment
